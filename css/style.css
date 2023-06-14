@@ -332,6 +332,7 @@ main{
     transform: translateY(-100%);
     transition: transform .3s, opacity .5s;
     overflow: hidden; 
+    z-index: 3;
 }
 
 .pop-up.active-form{
@@ -565,6 +566,7 @@ main{
         padding: 48px 0px;
         left: -375px;
         transition: transform 1s;  
+        z-index: 2;
     }
     .header.active .menu-inner{
         transform: translateX(100%);
